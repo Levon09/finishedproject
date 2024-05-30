@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:background="@drawable/fon"
+    android:layout_width="match_parent"
+    tools:context=".MainActivity"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="1352dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="500dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="40dp">
+
+        <Button
+            android:id="@+id/speed"
+            android:layout_width="900dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="75sp"
+            android:backgroundTint="@color/blue"
+            android:text="Which is faster?"
+            android:textSize="42.5sp"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/more_hp"
+            android:layout_width="900dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="280sp"
+            android:textSize="42.5sp"
+            android:backgroundTint="@color/blue"
+            android:text="More horsepowers(HP)?"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/expensive_one"
+            android:layout_width="900dp"
+            android:layout_height="150dp"
+            android:textSize="42.5sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="485sp"
+            android:backgroundTint="@color/blue"
+            android:text="Which is more expensive?"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/older_one"
+            android:layout_width="900dp"
+            android:layout_height="150dp"
+            android:textSize="42.5sp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="690sp"
+            android:backgroundTint="@color/blue"
+            android:text="Which is older?"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/log_out_button"
+            android:layout_width="900dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="1000sp"
+            android:textSize="40sp"
+            android:backgroundTint="#013220"
+            android:text="Log Out"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:cornerRadius="15sp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="632dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="227dp"
+        android:layout_marginEnd="102dp"
+        android:layout_marginBottom="1440dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Cars quiz"
+        android:textColor="@color/white"
+        android:textSize="120sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="817dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="83dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="1321dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Check your knowledge"
+        android:textColor="@color/white"
+        android:textSize="75sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

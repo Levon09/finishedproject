@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blue">#243BBC</color>
+    <color name="erkrord">#4255BA</color>
+    <color name="mug">#000C4C</color>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="backgroundColor">#FAFAFA</color>
+    <color name="cardBackgroundColor">#FFFFFF</color>
+    <color name="cardStrokeColor">#E0E0E0</color>
+    <color name="progressTrackColor">#E0E0E0</color>
+    <color name="progressIndicatorColor">#6200EE</color>
+</resources>

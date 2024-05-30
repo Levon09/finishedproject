@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:background="@drawable/fon"
+    android:layout_width="match_parent"
+    tools:context=".MainActivity"
+    >
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="-21dp"
+        app:cardBackgroundColor="@color/white"
+        app:cardCornerRadius="28dp">
+
+        <Button
+            android:id="@+id/speed"
+            android:layout_width="362dp"
+            android:layout_height="86dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="55sp"
+            android:backgroundTint="@color/blue"
+            android:text="Which is faster?"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/more_hp"
+            android:layout_width="362dp"
+            android:layout_height="86dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="155sp"
+            android:backgroundTint="@color/blue"
+            android:text="More horsepowers(HP)?"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+
+        <Button
+            android:id="@+id/expensive_one"
+            android:layout_width="362dp"
+            android:layout_height="86dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="255sp"
+            android:backgroundTint="@color/blue"
+            android:text="Which is more expensive?"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/older_one"
+            android:layout_width="362dp"
+            android:layout_height="86dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="355sp"
+            android:backgroundTint="@color/blue"
+            android:text="Which is older?"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/log_out_button"
+            android:layout_width="384dp"
+            android:layout_height="66dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="480sp"
+            android:backgroundTint="#013220"
+            android:text="Log Out"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            app:cornerRadius="10sp" />
+
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:layout_width="243dp"
+        android:layout_height="80dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="99dp"
+        android:layout_marginEnd="69dp"
+        android:layout_marginBottom="606dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Cars quiz"
+        android:textColor="@color/white"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

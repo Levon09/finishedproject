@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "981927892821",
+    "project_id": "cars-quiz-85c30",
+    "storage_bucket": "cars-quiz-85c30.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:981927892821:android:63c855b0a26cd67269c1dc",
+        "android_client_info": {
+          "package_name": "com.example.carsquiz"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5cDo-QuKmLBAKBwgg5Fc6CXVQNrK1PoE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fon"
+    android:layout_height="match_parent"
+    tools:context=".SpeedActivity">
+
+    <TextView
+        android:id="@+id/questionTextView"
+        android:layout_width="872dp"
+        android:layout_height="299dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Which car's max speed is higher?"
+        android:textColor="@color/white"
+        android:textSize="90sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.897"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.485" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="800sp"
+        android:layout_height="1000dp"
+        android:layout_marginBottom="64dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/ans_A"
+            android:text="First Variant"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            android:textSize="55sp"
+            android:textStyle="bold"
+            app:cornerRadius="20sp" />
+
+        <Button
+            android:id="@+id/ans_B"
+            android:text="Second Variant"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            android:textSize="55sp"
+            android:layout_marginTop="40dp"
+            android:textStyle="bold"
+            app:cornerRadius="20sp" />
+
+        <Button
+            android:id="@+id/ans_C"
+            android:text="Third Variant"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:layout_marginTop="40dp"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            android:textSize="55sp"
+            android:textStyle="bold"
+            app:cornerRadius="20sp" />
+
+        <Button
+            android:id="@+id/ans_D"
+            android:text="Fourth Variant"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:layout_marginTop="40dp"
+            android:backgroundTint="@color/white"
+            android:textColor="@color/black"
+            android:textSize="55sp"
+            android:textStyle="bold"
+            app:cornerRadius="20sp" />
+
+
+        <Button
+            android:id="@+id/submit"
+            android:text="Submit"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:layout_marginTop="60dp"
+            android:backgroundTint="@color/black"
+            android:textColor="@color/white"
+            android:textSize="60sp"
+            android:textStyle="bold"
+            app:cornerRadius="60sp" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
